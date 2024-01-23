@@ -1,0 +1,6 @@
+2023-10-01T15:46:50.138980700255-15:46:50 **** Incremental Build of project uart_platfrom ****
+000-buildplatform.bat 50623 uart_platfrom no_domain_build 
+000-XSDB Server Channel: tcfchan#1
+00255-
+15:46:54 Build Finished (took 4s.452ms)
+

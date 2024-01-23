@@ -1,0 +1,26 @@
+15:46:55 **** Incremental Build of configuration Debug for project uart_app ****
+make all 
+'Building file: ../src/inputscan.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/inputscan.o" -IC:/Users/kmironp/Desktop/szakdogaprogramok/07-uart/07-uart.vitis/uart_platfrom/export/uart_platfrom/sw/uart_platfrom/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/inputscan.d" -MT"src/inputscan.o" -o "src/inputscan.o" "../src/inputscan.c"
+'Finished building: ../src/inputscan.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/kmironp/Desktop/szakdogaprogramok/07-uart/07-uart.vitis/uart_platfrom/export/uart_platfrom/sw/uart_platfrom/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: uart_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/kmironp/Desktop/szakdogaprogramok/07-uart/07-uart.vitis/uart_platfrom/export/uart_platfrom/sw/uart_platfrom/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "uart_app.elf"  ./src/inputscan.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size uart_app.elf  |tee "uart_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3884	    316	   3112	   7312	   1c90	uart_app.elf
+'Finished building: uart_app.elf.size'
+' '
+
+15:46:57 Build Finished (took 2s.93ms)
+
