@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jan 17 17:05:18 2024
+# Process ID: 14096
+# Current directory: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/08-basiccortex/AT472-BU-98000-r0p1-00rel0/hardware/m1_for_arty_a7/m1_for_arty_a7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9588 C:\Users\kmironp\Desktop\Szakdoga_vegso\Kodok\08-basiccortex\AT472-BU-98000-r0p1-00rel0\hardware\m1_for_arty_a7\m1_for_arty_a7\m1_for_arty_a7.xpr
+# Log file: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/08-basiccortex/AT472-BU-98000-r0p1-00rel0/hardware/m1_for_arty_a7/m1_for_arty_a7/vivado.log
+# Journal file: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/08-basiccortex/AT472-BU-98000-r0p1-00rel0/hardware/m1_for_arty_a7/m1_for_arty_a7\vivado.jou
+#-----------------------------------------------------------
+start_gui
