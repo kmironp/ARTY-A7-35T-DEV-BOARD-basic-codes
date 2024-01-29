@@ -1,0 +1,3 @@
+https://github.com/srimanthtenneti/SOC-Design-ARM-M0/tree/main/SimpleLEDSOC
+
+https://www.hackster.io/Srimanth_Tenneti/simple-soc-using-cortex-m0-386a85
