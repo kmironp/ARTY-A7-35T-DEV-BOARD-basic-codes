@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jan 10 13:46:07 2024
+# Process ID: 10972
+# Current directory: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/emlites-regi-soc_book_examples/fpga/Arty_S7_fpga/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2316 C:\Users\kmironp\Desktop\Szakdoga_vegso\Kodok\emlites-regi-soc_book_examples\fpga\Arty_S7_fpga\project_1\project_1.xpr
+# Log file: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/emlites-regi-soc_book_examples/fpga/Arty_S7_fpga/project_1/vivado.log
+# Journal file: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/emlites-regi-soc_book_examples/fpga/Arty_S7_fpga/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/emlites-regi-soc_book_examples/fpga/Arty_S7_fpga/project_1/project_1.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/emlites-regi-soc_book_examples/fpga/Arty_S7_fpga/project_1'
+INFO: [Project 1-313] Project file moved from 'C:/Users/kmironp/Desktop/soc_book_examples/fpga/Arty_S7_fpga/project_1' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/emlites-regi-soc_book_examples/fpga/Arty_S7_fpga/cortex_m3_designstart_eval/cortexm3integration_ds_obs/verilog/CORTEXM3INTEGRATIONDS.v', nor could it be found using path 'C:/Users/kmironp/Desktop/soc_book_examples/fpga/Arty_S7_fpga/cortex_m3_designstart_eval/cortexm3integration_ds_obs/verilog/CORTEXM3INTEGRATIONDS.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/emlites-regi-soc_book_examples/fpga/Arty_S7_fpga/cortex_m3_designstart_eval/cortexm3integration_ds/verilog/cm3_code_mux.v', nor could it be found using path 'C:/Users/kmironp/Desktop/soc_book_examples/fpga/Arty_S7_fpga/cortex_m3_designstart_eval/cortexm3integration_ds/verilog/cm3_code_mux.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/emlites-regi-soc_book_examples/fpga/Arty_S7_fpga/cortex_m3_designstart_eval/cortexm3integration_ds_obs/verilog/cortexm3ds_logic.v', nor could it be found using path 'C:/Users/kmironp/Desktop/soc_book_examples/fpga/Arty_S7_fpga/cortex_m3_designstart_eval/cortexm3integration_ds_obs/verilog/cortexm3ds_logic.v'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'C:/Users/kmironp/Desktop/Szakdoga_vegso/Users/Joseph Yiu/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store', nor could it be found using path 'C:/Users/kmironp/Users/Joseph Yiu/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store'.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'C:/Users/kmironp/Desktop/Szakdoga_vegso/Users/Joseph', nor could it be found using path 'C:/Users/kmironp/Users/Joseph'.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'C:/Users/kmironp/Desktop/Szakdoga_vegso/Users/Joseph Yiu/AppData/Roaming/Xilinx/Vivado/Yiu/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store', nor could it be found using path 'C:/Users/kmironp/Users/Joseph Yiu/AppData/Roaming/Xilinx/Vivado/Yiu/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store'.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'C:/Users/kmironp/Desktop/Szakdoga_vegso/Users/Joseph', nor could it be found using path 'C:/Users/kmironp/Users/Joseph'.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'C:/Users/kmironp/Desktop/Szakdoga_vegso/Users/Joseph Yiu/AppData/Roaming/Xilinx/Vivado/Yiu/work/Arty_S7/cm3_test1/project_1/Yiu/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store', nor could it be found using path 'C:/Users/kmironp/Users/Joseph Yiu/AppData/Roaming/Xilinx/Vivado/Yiu/work/Arty_S7/cm3_test1/project_1/Yiu/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 748.734 ; gain = 109.008
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 10 13:46:51 2024...
