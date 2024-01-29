@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jan 17 14:34:24 2024
+# Process ID: 1944
+# Current directory: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/ArtySimpleSoC/ArtySOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5712 C:\Users\kmironp\Desktop\Szakdoga_vegso\Kodok\ArtySimpleSoC\ArtySOC\ArtySOC.xpr
+# Log file: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/ArtySimpleSoC/ArtySOC/vivado.log
+# Journal file: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/ArtySimpleSoC/ArtySOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 17 14:35:03 2024...

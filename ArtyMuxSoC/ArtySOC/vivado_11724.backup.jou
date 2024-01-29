@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jan  8 16:53:34 2024
+# Process ID: 11724
+# Current directory: C:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9204 C:\Users\kmironp\Desktop\SimpleSoC-master\design\ArtySOC\ArtySOC.xpr
+# Log file: C:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/vivado.log
+# Journal file: C:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.xpr
+update_compile_order -fileset sources_1
+save_project_as project_1 C:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/project_1 -force

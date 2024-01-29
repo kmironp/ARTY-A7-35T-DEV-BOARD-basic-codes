@@ -1,0 +1,1554 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Jan 18 17:24:52 2024
+| Host         : DESKTOP-1PFU4II running 64-bit major release  (build 9200)
+| Command      : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xc7a35ticsg324-1L
+| Speed File   : -1L
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 303
++-----------+------------------+----------------------------------+------------+
+| Rule      | Severity         | Description                      | Violations |
++-----------+------------------+----------------------------------+------------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell      | 212        |
+| DPIR-1    | Warning          | Asynchronous driver check        | 81         |
+| HPDR-1    | Warning          | Port pin direction inconsistency | 1          |
+| HPDR-2    | Warning          | Port pin INOUT inconsistency     | 1          |
+| TIMING-18 | Warning          | Missing input or output delay    | 8          |
++-----------+------------------+----------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPDpIMux/Busabort_cdc_check_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPDpIMux/Busreq_cdc_check_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPDpIMux/CDBGPWRUPREQ_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPDpIMux/CSYSPWRUPREQ_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ApBankSel_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ApBankSel_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ApBankSel_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ApBankSel_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ApDir_cdc_check_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ApRegSel_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ApRegSel_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ApSel_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ApSel_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ApSel_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ApSel_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ApSel_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ApSel_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ApSel_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ApSel_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/CDBGPWRUPREQReg_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#21 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/CDBGRSTREQReg_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#22 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/CSYSPWRUPREQReg_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#23 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ContDetectReg_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ContErrReg_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#25 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/CtrlSel_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#26 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/DBGDOEN_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#27 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/DBGDOReg_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#28 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/DapAbort_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#29 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/DapBank_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#30 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/DapDir_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#31 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/DapRegSel_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#32 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/DapRegSel_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#33 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ErrorChk_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#34 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ErrorTrack_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#35 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#36 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#37 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#38 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#39 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#40 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#41 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#42 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#43 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#44 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#45 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#46 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#47 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#48 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#49 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#50 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#51 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#52 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#53 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#54 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#55 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#56 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#57 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#58 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#59 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#60 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#61 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/FSM_onehot_State_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#62 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/IfaceRdyAc_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#63 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/IfaceRdyC_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#64 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/MaskLane_cdc_check_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#65 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/MaskLane_cdc_check_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#66 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/MaskLane_cdc_check_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#67 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/MaskLane_cdc_check_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#68 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/NeedIDReadReg_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#69 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/Parity_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#70 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/PrescalerReg_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#71 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/PrescalerReg_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#72 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ReadOKReg_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#73 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ResetCountReg_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#74 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ResetCountReg_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#75 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ResetCountReg_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#76 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ResetCountReg_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#77 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ResetCountReg_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#78 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ResetCountReg_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#79 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RespFaultReg_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#80 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#81 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#82 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#83 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#84 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#85 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#86 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#87 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#88 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#89 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#90 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#91 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#92 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#93 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#94 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#95 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#96 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#97 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#98 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#99 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#100 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#101 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#102 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#103 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#104 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#105 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#106 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#107 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#108 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#109 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#110 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#111 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/RetryReg_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#112 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/SerAddr_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#113 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/SerAddr_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#114 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/SerBank_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#115 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/SerCnt_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#116 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/SerCnt_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#117 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/SerCnt_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#118 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/SerCnt_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#119 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/SerCnt_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#120 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/SerDir_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#121 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#122 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#123 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#124 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#125 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#126 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#127 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#128 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#129 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#130 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#131 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#132 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#133 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#134 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#135 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#136 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#137 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#138 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#139 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#140 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#141 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#142 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#143 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#144 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#145 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#146 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#147 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#148 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#149 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#150 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#151 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#152 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/ShiftReg_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#153 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/StickyCmp_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#154 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/StickyErr_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#155 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/TrnferCnt_cdc_check_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#156 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/TrnferCnt_cdc_check_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#157 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/TrnferCnt_cdc_check_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#158 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/TrnferCnt_cdc_check_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#159 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/TrnferCnt_cdc_check_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#160 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/TrnferCnt_cdc_check_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#161 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/TrnferCnt_cdc_check_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#162 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/TrnferCnt_cdc_check_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#163 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/TrnferCnt_cdc_check_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#164 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/TrnferCnt_cdc_check_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#165 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/TrnferCnt_cdc_check_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#166 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/TrnferCnt_cdc_check_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#167 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/TrnferMode_cdc_check_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#168 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/TrnferMode_cdc_check_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#169 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/TurnCnt_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#170 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/TurnCnt_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#171 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/WBufAck_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#172 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/WBufReq_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#173 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/WriteErrReg_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#174 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusReq_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#175 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#176 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#177 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#178 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#179 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#180 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#181 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#182 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#183 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#184 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#185 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#186 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#187 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#188 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#189 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#190 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#191 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#192 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#193 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#194 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#195 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#196 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#197 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#198 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#199 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#200 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#201 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#202 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#203 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#204 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#205 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#206 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpProtocol/iBusWdata_cdc_check_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#207 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpSync/uCDBGPWRUPACK/sync2_reg_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#208 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpSync/uCDBGPWRUPACK/sync_reg_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#209 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpSync/uCSYSPWRUPACK/sync2_reg_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#210 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpSync/uCSYSPWRUPACK/sync_reg_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#211 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpSync/uSyncBusAck/sync2_reg_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#212 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/CORTEXM1_AXI_0/inst/gb_DAP.u_swj_dp/uDAPSwDpSync/uSyncBusAck/sync_reg_reg/C is not reached by a timing clock
+Related violations: <none>
+
+DPIR-1#1 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#2 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/A[10] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#3 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/A[11] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#4 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/A[12] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#5 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/A[13] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#6 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/A[14] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#7 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/A[15] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#8 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/A[16] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#9 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#10 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/A[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#11 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/A[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#12 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/A[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#13 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/A[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#14 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/A[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#15 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/A[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#16 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/A[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#17 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/A[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#18 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/B[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#19 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/B[10] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#20 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/B[11] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#21 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/B[12] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#22 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/B[13] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#23 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/B[14] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#24 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/B[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#25 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/B[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#26 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/B[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#27 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/B[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#28 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/B[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#29 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/B[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#30 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/B[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#31 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/B[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#32 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0/B[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#33 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#34 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/A[10] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#35 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/A[11] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#36 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/A[12] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#37 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/A[13] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#38 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/A[14] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#39 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/A[15] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#40 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/A[16] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#41 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#42 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/A[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#43 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/A[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#44 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/A[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#45 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/A[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#46 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/A[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#47 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/A[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#48 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/A[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#49 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/A[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#50 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/B[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#51 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/B[10] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#52 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/B[11] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#53 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/B[12] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#54 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/B[13] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#55 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/B[14] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#56 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/B[15] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#57 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/B[16] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#58 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/B[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#59 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/B[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#60 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/B[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#61 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/B[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#62 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/B[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#63 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/B[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#64 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/B[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#65 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/B[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#66 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__0/B[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#67 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1/B[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#68 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1/B[10] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#69 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1/B[11] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#70 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1/B[12] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#71 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1/B[13] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#72 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1/B[14] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#73 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1/B[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#74 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1/B[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#75 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1/B[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#76 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1/B[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#77 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1/B[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#78 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1/B[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#79 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1/B[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#80 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1/B[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#81 Warning
+Asynchronous driver check  
+DSP design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1 input pin design_1_i/CORTEXM1_AXI_0/inst/u_cortexm1/u_core/u_dp/u_mul_shft/u_mul/nxt_mult_out0__1/B[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+HPDR-1#1 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) SWDIO direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (SWDIO) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-2#1 Warning
+Port pin INOUT inconsistency  
+Hierarchical port(pin) design_1_i/SWDIO direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (SWDIO_OBUF) connected to this hierarchical pin/port, but both were not found.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on EXTRESET relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on RESET relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An output delay is missing on HALTED relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An output delay is missing on LOCKUP relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An output delay is missing on led_4bits_tri_o[0] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An output delay is missing on led_4bits_tri_o[1] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An output delay is missing on led_4bits_tri_o[2] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An output delay is missing on led_4bits_tri_o[3] relative to clock(s) sys_clock
+Related violations: <none>
+
+

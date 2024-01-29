@@ -1,0 +1,57 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.473971",
+   "Default View_TopLeft":"-124,-207",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port led_4bits -pg 1 -lvl 8 -x 2150 -y 100 -defaultsOSRD
+preplace port port-id_sys_clock -pg 1 -lvl 0 -x 0 -y 570 -defaultsOSRD
+preplace port port-id_CLKRESET -pg 1 -lvl 0 -x 0 -y 510 -defaultsOSRD
+preplace port port-id_RESET -pg 1 -lvl 0 -x 0 -y 430 -defaultsOSRD
+preplace port port-id_LOCKUP -pg 1 -lvl 8 -x 2150 -y 20 -defaultsOSRD
+preplace port port-id_HALTED -pg 1 -lvl 8 -x 2150 -y 330 -defaultsOSRD
+preplace port port-id_SWDIO -pg 1 -lvl 8 -x 2150 -y 510 -defaultsOSRD
+preplace port port-id_SWDCLK -pg 1 -lvl 0 -x 0 -y 350 -defaultsOSRD
+preplace port port-id_EXTRESET -pg 1 -lvl 0 -x 0 -y 450 -defaultsOSRD
+preplace inst CORTEXM1_AXI_0 -pg 1 -lvl 4 -x 1060 -y 280 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 6 -x 1720 -y 240 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 7 -x 2000 -y 240 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 5 -x 1420 -y 230 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 2 -x 410 -y 520 -defaultsOSRD
+preplace inst rst_clk_wiz_100M -pg 1 -lvl 3 -x 680 -y 450 -defaultsOSRD
+preplace inst reset_inv_0 -pg 1 -lvl 1 -x 170 -y 510 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 6 -x 1720 -y 100 -defaultsOSRD
+preplace inst iobuffer_0 -pg 1 -lvl 7 -x 2000 -y 500 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -x 680 -y 270 -defaultsOSRD
+preplace netloc CORTEXM1_AXI_0_HALTED 1 4 4 1260J 330 NJ 330 NJ 330 NJ
+preplace netloc CORTEXM1_AXI_0_LOCKUP 1 4 4 1260J 20 NJ 20 NJ 20 NJ
+preplace netloc CORTEXM1_AXI_0_SWDO 1 4 3 1250J 360 NJ 360 1860
+preplace netloc CORTEXM1_AXI_0_SWDOEN 1 4 3 NJ 350 NJ 350 1870
+preplace netloc Net 1 7 1 NJ 510
+preplace netloc SWCLKTCK_0_1 1 0 4 NJ 350 NJ 350 NJ 350 NJ
+preplace netloc aux_reset_in_0_1 1 0 3 NJ 450 NJ 450 NJ
+preplace netloc clk_wiz_clk_out1 1 2 4 500 190 850 120 1280 310 1570
+preplace netloc clk_wiz_locked 1 2 1 510 490n
+preplace netloc iobuffer_0_buf_out 1 3 5 870 430 NJ 430 NJ 430 NJ 430 2130
+preplace netloc reset_0_1 1 0 3 NJ 430 NJ 430 NJ
+preplace netloc reset_1 1 0 1 NJ 510
+preplace netloc reset_inv_0_Res 1 1 1 NJ 510
+preplace netloc rst_clk_wiz_100M_peripheral_aresetn 1 3 3 860 130 1270 320 1580
+preplace netloc sys_clock_1 1 0 2 NJ 570 320J
+preplace netloc xlconstant_0_dout 1 3 1 NJ 270
+preplace netloc CORTEXM1_AXI_0_CM1_AXI3 1 4 1 N 210
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 6 1 N 230
+preplace netloc axi_bram_ctrl_0_BRAM_PORTB 1 6 1 N 250
+preplace netloc axi_gpio_0_GPIO 1 6 2 NJ 100 NJ
+preplace netloc axi_smc_M00_AXI 1 5 1 N 220
+preplace netloc axi_smc_M01_AXI 1 5 1 1560 80n
+levelinfo -pg 1 0 170 410 680 1060 1420 1720 2000 2150
+pagesize -pg 1 -db -bbox -sgen -130 0 2260 590
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_board_cnt":"3",
+   "da_bram_cntlr_cnt":"2"
+}

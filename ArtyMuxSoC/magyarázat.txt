@@ -1,0 +1,25 @@
+Az ok, amiért a LED továbbra is világít, ha 01 a következő lépés a 11 után, az az, hogy az állapotgép áttért a On állapotból a Toggle állapotba. A Toggle állapot csak egy ideiglenes állapot.
+
+A második 00 nem kezdeti állapot, mert az állapotgép nem térhet vissza a Off állapotba a Toggle állapotból anélkül, hogy először átváltana a Be állapotba.
+
+A kapcsolót vezérelni kell, nem vált automatikusan az állapotok között. A kapcsolók állapotát a felhasználó határozza meg, és az állapotgép egyszerűen reagál ezekre a változásokra.
+
+sw1	sw2	state	led
+0	0	Off	Off (initial state)
+0	1	Off	Off
+1	0	Off	Off
+1	1	On	On
+1	0	Off	Off
+1	1	On	On
+0	1	On	On
+0	0	On	On (not start)
+0	1	On	On (not start)
+1	0	Off	Off
+0	0	Off	Off (initial state)
+
+Váltás (kapcsolási állapot lebontása a táblázat alapján):
+
+Toggle-ről On-ra kikapcsolásra: 11 -> 01 -> 00 (váltó)
+
+Toggle-ről Off-ra állapotból bekapcsolva: 00 -> 01 -> 11 (váltó)
+

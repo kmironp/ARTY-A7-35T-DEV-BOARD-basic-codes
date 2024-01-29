@@ -1,0 +1,858 @@
+
+*** Running vivado
+    with args -log design_1_CORTEXM1_AXI_0_4.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_CORTEXM1_AXI_0_4.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source design_1_CORTEXM1_AXI_0_4.tcl -notrace
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1421.105 ; gain = 157.625
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmironp/Desktop/SimpleSoC-master/IPs'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_CORTEXM1_AXI_0_4
+Command: synth_design -top design_1_CORTEXM1_AXI_0_4 -part xc7a35ticsg324-1L -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10548
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+INFO: [Synth 8-11241] undeclared symbol 'HREADY', assumed default net type 'wire' [c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ipshared/3a46/rtl/CortexM1DbgAXI.vp:11212]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2238.590 ; gain = 408.773
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_CORTEXM1_AXI_0_4' [c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/synth/design_1_CORTEXM1_AXI_0_4.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_CORTEXM1_AXI_0_4' (0#1) [c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/synth/design_1_CORTEXM1_AXI_0_4.v:53]
+WARNING: [Synth 8-7129] Port nCSOCPWRDN in module DAPAHBAP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port nCDBGPWRDN in module DAPAHBAP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port biu_addr_non_au[9] in module cm1_mem_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port biu_addr_non_au[8] in module cm1_mem_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port biu_addr_non_au[7] in module cm1_mem_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port biu_addr_non_au[6] in module cm1_mem_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port biu_addr_non_au[5] in module cm1_mem_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port biu_addr_non_au[4] in module cm1_mem_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port biu_addr_non_au[3] in module cm1_mem_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port biu_addr_non_au[2] in module cm1_mem_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port biu_addr_non_au[1] in module cm1_mem_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port biu_addr_non_au[0] in module cm1_mem_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HCLK in module cm1_alu_dec is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SYSRESETn in module cm1_alu_dec is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SYSRESETn in module cm1_reg_bank is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mul_ex in module cm1_dp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mul_first_phase_ex in module cm1_dp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port nxt_mul_last_phase_ex in module cm1_dp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port last_phase_ex in module cm1_excpt is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_de[1] in module cm1_excpt is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_de[0] in module cm1_excpt is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_ex[0] in module cm1_excpt is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[0] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[31] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[30] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[29] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[28] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[27] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[26] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[25] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[24] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[23] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[22] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[21] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[20] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[19] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[18] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[17] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[16] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[15] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[14] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[13] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[12] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[11] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[10] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[9] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[8] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[7] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[6] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[5] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[4] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[3] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[2] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[1] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_reg[0] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[31] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[30] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[29] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[28] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[27] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[26] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[25] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[24] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[23] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[22] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[21] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[20] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[19] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[18] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[17] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[16] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[15] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[14] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[13] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[12] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[11] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[10] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[9] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[8] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[7] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[6] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[5] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[4] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[3] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[2] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[1] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port au_out[0] in module cm1_ctl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[31] in module cm1_dbg_tcm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[30] in module cm1_dbg_tcm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[28] in module cm1_dbg_tcm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[27] in module cm1_dbg_tcm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[26] in module cm1_dbg_tcm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[25] in module cm1_dbg_tcm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[24] in module cm1_dbg_tcm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[23] in module cm1_dbg_tcm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[22] in module cm1_dbg_tcm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[21] in module cm1_dbg_tcm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[20] in module cm1_dbg_tcm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HTRANS[0] in module cm1_dbg_tcm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HTRANS[0] in module cm1_dbg_rom_tb is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2413.609 ; gain = 583.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 2431.535 ; gain = 601.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 2431.535 ; gain = 601.719
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.254 . Memory (MB): peak = 2431.535 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.runs/design_1_CORTEXM1_AXI_0_4_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.runs/design_1_CORTEXM1_AXI_0_4_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2544.223 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.153 . Memory (MB): peak = 2544.223 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 2544.223 ; gain = 714.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 2544.223 ; gain = 714.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property ASYNC_REG = true for inst/\gb_DAP.u_swj_dp /uDAPDpApbSync/uSyncBusAbort/sync_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 2).
+Applied set_property ASYNC_REG = true for inst/\gb_DAP.u_swj_dp /uDAPDpApbSync/uSyncBusReq/sync_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 2).
+Applied set_property ASYNC_REG = true for inst/\gb_DAP.u_swj_dp /uDAPSwDpSync/uCDBGPWRUPACK/sync_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 2).
+Applied set_property ASYNC_REG = true for inst/\gb_DAP.u_swj_dp /uDAPSwDpSync/uCDBGRSTACK/sync_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 2).
+Applied set_property ASYNC_REG = true for inst/\gb_DAP.u_swj_dp /uDAPSwDpSync/uCSYSPWRUPACK/sync_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 2).
+Applied set_property ASYNC_REG = true for inst/\gb_DAP.u_swj_dp /uDAPSwDpSync/uSyncBusAck/sync_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 2).
+Applied set_property ASYNC_REG = true for inst/\gb_DAP.u_swj_dp /uDAPDpApbSync/uSyncBusAbort/sync2_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 3).
+Applied set_property ASYNC_REG = true for inst/\gb_DAP.u_swj_dp /uDAPDpApbSync/uSyncBusReq/sync2_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 3).
+Applied set_property ASYNC_REG = true for inst/\gb_DAP.u_swj_dp /uDAPSwDpSync/uCDBGPWRUPACK/sync2_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 3).
+Applied set_property ASYNC_REG = true for inst/\gb_DAP.u_swj_dp /uDAPSwDpSync/uCDBGRSTACK/sync2_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 3).
+Applied set_property ASYNC_REG = true for inst/\gb_DAP.u_swj_dp /uDAPSwDpSync/uCSYSPWRUPACK/sync2_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 3).
+Applied set_property ASYNC_REG = true for inst/\gb_DAP.u_swj_dp /uDAPSwDpSync/uSyncBusAck/sync2_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 3).
+Applied set_property ASYNC_REG = true for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApAhbSync/uAhbApAhbSync0/sync_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 5).
+Applied set_property ASYNC_REG = true for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApAhbSync/uAhbApAhbSync1/sync_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 5).
+Applied set_property ASYNC_REG = true for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApAhbSync/uAhbApAhbSync2/sync_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 5).
+Applied set_property ASYNC_REG = true for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApAhbSync/uAhbApAhbSync3/sync_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 5).
+Applied set_property ASYNC_REG = true for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApDapSync/uAhbApDapSync0/sync_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 5).
+Applied set_property ASYNC_REG = true for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApDapSync/uAhbApDapSync1/sync_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 5).
+Applied set_property ASYNC_REG = true for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApDapSync/uAhbApDapSync2/sync_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 5).
+Applied set_property ASYNC_REG = true for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApDapSync/uAhbApDapSync3/sync_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 5).
+Applied set_property ASYNC_REG = true for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApDapSync/uAhbApDapSync4/sync_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 5).
+Applied set_property ASYNC_REG = true for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApAhbSync/uAhbApAhbSync0/sync2_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 6).
+Applied set_property ASYNC_REG = true for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApAhbSync/uAhbApAhbSync1/sync2_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 6).
+Applied set_property ASYNC_REG = true for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApAhbSync/uAhbApAhbSync2/sync2_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 6).
+Applied set_property ASYNC_REG = true for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApAhbSync/uAhbApAhbSync3/sync2_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 6).
+Applied set_property ASYNC_REG = true for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApDapSync/uAhbApDapSync0/sync2_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 6).
+Applied set_property ASYNC_REG = true for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApDapSync/uAhbApDapSync1/sync2_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 6).
+Applied set_property ASYNC_REG = true for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApDapSync/uAhbApDapSync2/sync2_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 6).
+Applied set_property ASYNC_REG = true for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApDapSync/uAhbApDapSync3/sync2_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 6).
+Applied set_property ASYNC_REG = true for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApDapSync/uAhbApDapSync4/sync2_reg_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 6).
+Applied set_property FSM_ENCODING = sequential for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApSlv/CurState_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 8).
+Applied set_property FSM_ENCODING = sequential for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApSlv/CurState_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 8).
+Applied set_property FSM_ENCODING = sequential for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApSlv/CurState_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 8).
+Applied set_property FSM_ENCODING = sequential for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApSlv/CurState_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 8).
+Applied set_property FSM_ENCODING = sequential for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApMst/CurState_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 9).
+Applied set_property FSM_ENCODING = sequential for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApMst/CurState_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 9).
+Applied set_property FSM_ENCODING = sequential for inst/u_cortexm1/u_dap_ahb_ap/uDAPAhbApMst/CurState_reg. (constraint file  c:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.gen/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_4/design_1_CORTEXM1_AXI_0_4.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.runs/design_1_CORTEXM1_AXI_0_4_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 2544.223 ; gain = 714.406
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'State_cdc_check_reg' in module 'DAPSwjWatcher'
+INFO: [Synth 8-802] inferred FSM for state register 'State_reg' in module 'DAPSwDpProtocol'
+INFO: [Synth 8-802] inferred FSM for state register 'JTAGcurr_reg' in module 'DAPJtagDpProtocol'
+INFO: [Synth 8-802] inferred FSM for state register 'APBcurr_reg' in module 'DAPSwDpApbIf'
+INFO: [Synth 8-802] inferred FSM for state register 'CurState_reg' in module 'DAPAhbApSlv'
+INFO: [Synth 8-802] inferred FSM for state register 'CurState_reg' in module 'DAPAhbApMst'
+WARNING: [Synth 8-6841] Block RAM (genblk3[1].ram_block_reg) originally specified as a Byte Wide Write Enable RAM cannot take advantage of ByteWide feature and is implemented with single write enable per RAM due to following reason.
+(address width (13) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired.)
+INFO: [Synth 8-3971] The signal "X_TCMDBG:/genblk3[1].ram_block_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE3 | 0000000000000000000000000000000001 |                           000000
+                 iSTATE2 | 0000000000000000000000000000000010 |                           000001
+                  iSTATE | 0000000000000000000000000000000100 |                           000010
+                iSTATE62 | 0000000000000000000000000000001000 |                           000011
+                iSTATE46 | 0000000000000000000000000000010000 |                           000100
+                iSTATE43 | 0000000000000000000000000000100000 |                           000101
+                iSTATE41 | 0000000000000000000000000001000000 |                           000110
+                iSTATE38 | 0000000000000000000000000010000000 |                           000111
+                iSTATE44 | 0000000000000000000000000100000000 |                           001000
+                iSTATE42 | 0000000000000000000000001000000000 |                           001001
+                iSTATE39 | 0000000000000000000000010000000000 |                           001010
+                iSTATE37 | 0000000000000000000000100000000000 |                           001011
+                iSTATE22 | 0000000000000000000001000000000000 |                           001100
+                iSTATE20 | 0000000000000000000010000000000000 |                           001101
+                iSTATE19 | 0000000000000000000100000000000000 |                           001110
+                iSTATE16 | 0000000000000000001000000000000000 |                           001111
+                 iSTATE0 | 0000000000000000010000000000000000 |                           111111
+                iSTATE18 | 0000000000000000100000000000000000 |                           100000
+                iSTATE15 | 0000000000000001000000000000000000 |                           100001
+                iSTATE11 | 0000000000000010000000000000000000 |                           100010
+                 iSTATE9 | 0000000000000100000000000000000000 |                           100011
+                iSTATE61 | 0000000000001000000000000000000000 |                           100100
+                iSTATE59 | 0000000000010000000000000000000000 |                           100101
+                iSTATE55 | 0000000000100000000000000000000000 |                           100110
+                iSTATE53 | 0000000001000000000000000000000000 |                           100111
+                iSTATE60 | 0000000010000000000000000000000000 |                           101000
+                iSTATE57 | 0000000100000000000000000000000000 |                           101001
+                iSTATE54 | 0000001000000000000000000000000000 |                           101010
+                iSTATE50 | 0000010000000000000000000000000000 |                           101011
+                iSTATE35 | 0000100000000000000000000000000000 |                           101100
+                iSTATE34 | 0001000000000000000000000000000000 |                           101101
+                iSTATE31 | 0010000000000000000000000000000000 |                           101110
+                iSTATE29 | 0100000000000000000000000000000000 |                           101111
+                iSTATE40 | 1000000000000000000000000000000000 |                           010000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'State_cdc_check_reg' using encoding 'one-hot' in module 'DAPSwjWatcher'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                iSTATE15 |  0000000001000000000000000000000 |                            00000
+                iSTATE11 |  0000000000000000000000000010000 |                            00001
+                 iSTATE7 |  0000000000000000000000000001000 |                            00010
+                 iSTATE5 |  0000000000000000100000000000000 |                            00011
+                iSTATE28 |  0000000000000001000000000000000 |                            00100
+                iSTATE27 |  1000000000000000000000000000000 |                            00101
+                iSTATE20 |  0001000000000000000000000000000 |                            00110
+                iSTATE18 |  0000001000000000000000000000000 |                            00111
+                iSTATE25 |  0000010000000000000000000000000 |                            01000
+                iSTATE16 |  0000000100000000000000000000000 |                            01010
+                iSTATE14 |  0000000010000000000000000000000 |                            01011
+                 iSTATE2 |  0000000000000000000000001000000 |                            01100
+                 iSTATE9 |  0000000000000000000000010000000 |                            10000
+                 iSTATE6 |  0000000000000010000000000000000 |                            10001
+                 iSTATE4 |  0000000000000000010000000000000 |                            10010
+                  iSTATE |  0000000000000000000000000000001 |                            11101
+                iSTATE26 |  0000000000000000000000000000010 |                            11110
+                 iSTATE3 |  0000000000000000000000100000000 |                            10011
+                iSTATE23 |  0000000000000000000001000000000 |                            10100
+                iSTATE21 |  0000000000000000000010000000000 |                            10101
+                iSTATE13 |  0000000000000000000100000000000 |                            10110
+                iSTATE12 |  0000000000000000001000000000000 |                            10111
+                iSTATE29 |  0000000000010000000000000000000 |                            01111
+                iSTATE24 |  0010000000000000000000000000000 |                            01001
+                iSTATE17 |  0000000000100000000000000000000 |                            11001
+                iSTATE10 |  0000000000001000000000000000000 |                            11010
+                 iSTATE0 |  0000000000000000000000000000100 |                            11100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'State_reg' using encoding 'one-hot' in module 'DAPSwDpProtocol'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                iSTATE12 |                             0011 |                             1111
+                 iSTATE3 |                             0111 |                             1100
+                 iSTATE9 |                             0110 |                             0111
+                 iSTATE0 |                             0010 |                             0100
+                iSTATE13 |                             0100 |                             1110
+                 iSTATE5 |                             1100 |                             1010
+                 iSTATE8 |                             1101 |                             1001
+                 iSTATE4 |                             1010 |                             1011
+                iSTATE10 |                             1011 |                             1000
+                 iSTATE2 |                             0101 |                             1101
+                iSTATE11 |                             1111 |                             0110
+                 iSTATE1 |                             1000 |                             0010
+                 iSTATE6 |                             1001 |                             0001
+                  iSTATE |                             0000 |                             0011
+                 iSTATE7 |                             0001 |                             0000
+                iSTATE14 |                             1110 |                             0101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'JTAGcurr_reg' using encoding 'sequential' in module 'DAPJtagDpProtocol'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                               01 |                               00
+                 iSTATE1 |                               11 |                               01
+                  iSTATE |                               10 |                               11
+                 iSTATE2 |                               00 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'APBcurr_reg' using encoding 'sequential' in module 'DAPSwDpApbIf'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE7 |                             0000 |                             0000
+                 iSTATE6 |                             0001 |                             0001
+                 iSTATE2 |                             0010 |                             0010
+                  iSTATE |                             0011 |                             0011
+                 iSTATE0 |                             0100 |                             0100
+                iSTATE14 |                             0101 |                             0101
+                iSTATE11 |                             0110 |                             0110
+                 iSTATE8 |                             0111 |                             0111
+                iSTATE10 |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'CurState_reg' using encoding 'sequential' in module 'DAPAhbApSlv'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              000 |                              000
+                 iSTATE2 |                              001 |                              001
+                 iSTATE0 |                              010 |                              010
+                 iSTATE1 |                              011 |                              011
+                 iSTATE3 |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'CurState_reg' using encoding 'sequential' in module 'DAPAhbApMst'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 2544.223 ; gain = 714.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   33 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   24 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 3     
+	   2 Input    4 Bit       Adders := 1     
+	   3 Input    4 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 4     
++---XORs : 
+	   2 Input     32 Bit         XORs := 5     
+	   2 Input      8 Bit         XORs := 2     
+	   2 Input      4 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 13    
++---Registers : 
+	               35 Bit    Registers := 1     
+	               32 Bit    Registers := 56    
+	               27 Bit    Registers := 4     
+	               24 Bit    Registers := 2     
+	               18 Bit    Registers := 1     
+	               16 Bit    Registers := 5     
+	               13 Bit    Registers := 1     
+	               12 Bit    Registers := 3     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 6     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 5     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 8     
+	                4 Bit    Registers := 28    
+	                3 Bit    Registers := 13    
+	                2 Bit    Registers := 55    
+	                1 Bit    Registers := 338   
++---Multipliers : 
+	              32x32  Multipliers := 1     
++---RAMs : 
+	             256K Bit	(8192 X 32 bit)          RAMs := 2     
+	              512 Bit	(16 X 32 bit)          RAMs := 1     
++---Muxes : 
+	   3 Input   35 Bit        Muxes := 2     
+	   2 Input   35 Bit        Muxes := 1     
+	   4 Input   35 Bit        Muxes := 1     
+	  34 Input   34 Bit        Muxes := 1     
+	   2 Input   34 Bit        Muxes := 36    
+	   2 Input   32 Bit        Muxes := 72    
+	   4 Input   32 Bit        Muxes := 6     
+	   5 Input   32 Bit        Muxes := 1     
+	  19 Input   32 Bit        Muxes := 1     
+	   9 Input   32 Bit        Muxes := 3     
+	   7 Input   32 Bit        Muxes := 1     
+	   6 Input   32 Bit        Muxes := 1     
+	  18 Input   32 Bit        Muxes := 1     
+	  31 Input   32 Bit        Muxes := 1     
+	  45 Input   31 Bit        Muxes := 1     
+	   2 Input   29 Bit        Muxes := 1     
+	   2 Input   24 Bit        Muxes := 2     
+	   2 Input   16 Bit        Muxes := 6     
+	   2 Input   12 Bit        Muxes := 8     
+	   7 Input   10 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 16    
+	   2 Input    8 Bit        Muxes := 6     
+	  19 Input    8 Bit        Muxes := 2     
+	   4 Input    8 Bit        Muxes := 5     
+	  34 Input    6 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 8     
+	   4 Input    5 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 11    
+	  27 Input    5 Bit        Muxes := 7     
+	   5 Input    5 Bit        Muxes := 1     
+	   6 Input    5 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 8     
+	   3 Input    4 Bit        Muxes := 4     
+	  16 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 67    
+	   8 Input    4 Bit        Muxes := 5     
+	   6 Input    4 Bit        Muxes := 3     
+	   7 Input    4 Bit        Muxes := 3     
+	  31 Input    4 Bit        Muxes := 2     
+	   9 Input    4 Bit        Muxes := 9     
+	   6 Input    3 Bit        Muxes := 3     
+	   8 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 23    
+	  31 Input    3 Bit        Muxes := 13    
+	  19 Input    3 Bit        Muxes := 1     
+	  13 Input    3 Bit        Muxes := 1     
+	  17 Input    3 Bit        Muxes := 1     
+	  10 Input    3 Bit        Muxes := 1     
+	   9 Input    3 Bit        Muxes := 1     
+	   5 Input    3 Bit        Muxes := 5     
+	  16 Input    3 Bit        Muxes := 2     
+	   3 Input    3 Bit        Muxes := 1     
+	   4 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 49    
+	   3 Input    2 Bit        Muxes := 7     
+	   8 Input    2 Bit        Muxes := 2     
+	   4 Input    2 Bit        Muxes := 6     
+	  19 Input    2 Bit        Muxes := 2     
+	  32 Input    2 Bit        Muxes := 1     
+	   9 Input    2 Bit        Muxes := 5     
+	  46 Input    2 Bit        Muxes := 2     
+	  31 Input    2 Bit        Muxes := 1     
+	  18 Input    2 Bit        Muxes := 1     
+	   6 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 195   
+	   5 Input    1 Bit        Muxes := 19    
+	   8 Input    1 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 26    
+	   3 Input    1 Bit        Muxes := 3     
+	  19 Input    1 Bit        Muxes := 10    
+	   9 Input    1 Bit        Muxes := 20    
+	   7 Input    1 Bit        Muxes := 12    
+	   6 Input    1 Bit        Muxes := 10    
+	  31 Input    1 Bit        Muxes := 19    
+	  17 Input    1 Bit        Muxes := 8     
+	  10 Input    1 Bit        Muxes := 6     
+	  20 Input    1 Bit        Muxes := 1     
+	  32 Input    1 Bit        Muxes := 2     
+	  18 Input    1 Bit        Muxes := 1     
+	  37 Input    1 Bit        Muxes := 1     
+	  29 Input    1 Bit        Muxes := 21    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP u_mul/nxt_mult_out0, operation Mode is: A*B.
+DSP Report: operator u_mul/nxt_mult_out0 is absorbed into DSP u_mul/nxt_mult_out0.
+DSP Report: operator u_mul/nxt_mult_out0 is absorbed into DSP u_mul/nxt_mult_out0.
+DSP Report: Generating DSP u_mul/nxt_mult_out0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator u_mul/nxt_mult_out0 is absorbed into DSP u_mul/nxt_mult_out0.
+DSP Report: operator u_mul/nxt_mult_out0 is absorbed into DSP u_mul/nxt_mult_out0.
+DSP Report: Generating DSP u_mul/nxt_mult_out0, operation Mode is: A*B.
+DSP Report: operator u_mul/nxt_mult_out0 is absorbed into DSP u_mul/nxt_mult_out0.
+DSP Report: operator u_mul/nxt_mult_out0 is absorbed into DSP u_mul/nxt_mult_out0.
+DSP Report: Generating DSP u_mul/nxt_mult_out0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator u_mul/nxt_mult_out0 is absorbed into DSP u_mul/nxt_mult_out0.
+DSP Report: operator u_mul/nxt_mult_out0 is absorbed into DSP u_mul/nxt_mult_out0.
+WARNING: [Synth 8-6841] Block RAM (gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg) originally specified as a Byte Wide Write Enable RAM cannot take advantage of ByteWide feature and is implemented with single write enable per RAM due to following reason.
+(address width (13) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired.)
+INFO: [Synth 8-3971] The signal "inst/gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg" was recognized as a true dual port RAM template.
+WARNING: [Synth 8-6841] Block RAM (u_x_itcm/genblk2[1].ram_block_reg) originally specified as a Byte Wide Write Enable RAM cannot take advantage of ByteWide feature and is implemented with single write enable per RAM due to following reason.
+(address width (13) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired.)
+INFO: [Synth 8-3971] The signal "inst/u_x_itcm/genblk2[1].ram_block_reg" was recognized as a true dual port RAM template.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[33]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[32]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[31]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[30]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[29]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[28]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[27]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[26]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[25]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[24]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[23]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[22]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[21]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[20]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[19]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[18]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[17]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[16]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[15]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[14]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[13]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[12]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[11]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[10]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[9]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[8]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[7]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[6]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[5]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[4]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[3]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[2]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[1]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[0]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwDpProtocol/FSM_onehot_State_reg[29]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwDpProtocol/FSM_onehot_State_reg[26]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwDpProtocol/FSM_onehot_State_reg[17]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPSwDpProtocol/FSM_onehot_State_reg[5]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPJtagDpProtocol/FSM_sequential_JTAGcurr_reg[3]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPJtagDpProtocol/FSM_sequential_JTAGcurr_reg[2]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPJtagDpProtocol/FSM_sequential_JTAGcurr_reg[1]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (uDAPJtagDpProtocol/FSM_sequential_JTAGcurr_reg[0]) is unused and will be removed from module DAPSWJDP.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[47]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[46]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[45]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[44]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[43]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[42]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[41]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[40]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[39]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[38]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[37]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[36]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[35]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[34]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[33]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[32]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[31]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[30]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[29]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[28]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[27]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[26]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[25]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[24]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[23]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[22]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[21]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[20]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[19]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[18]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[17]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[16]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[15]) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[47]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[46]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[45]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[44]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[43]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[42]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[41]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[40]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[39]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[38]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[37]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[36]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[35]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[34]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[33]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[32]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[31]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[30]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[29]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[28]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[27]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[26]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[25]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[24]__0) is unused and will be removed from module cm1_dp.
+WARNING: [Synth 8-3332] Sequential element (u_mul_shft/u_mul/i_mult_out_reg[23]__0) is unused and will be removed from module cm1_dp.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:13 ; elapsed = 00:01:19 . Memory (MB): peak = 2544.223 ; gain = 714.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------+--------------------------+---------------+----------------+
+|Module Name | RTL Object               | Depth x Width | Implemented As | 
++------------+--------------------------+---------------+----------------+
+|cm1_excpt   | excpt_mask_write         | 32x1          | LUT            | 
+|cm1_ctl     | u_excpt/excpt_mask_write | 32x1          | LUT            | 
++------------+--------------------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping Report (see note below)
++------------+-------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object                                | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+-------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|inst        | gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg | 8 K x 32(READ_FIRST)   | W | R | 8 K x 32(READ_FIRST)   | W | R | Port A and B     | 0      | 8      | 
+|inst        | u_x_itcm/genblk2[1].ram_block_reg         | 8 K x 32(READ_FIRST)   | W | R | 8 K x 32(READ_FIRST)   | W | R | Port A and B     | 0      | 8      | 
++------------+-------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++----------------------------+-------------------------+-----------+----------------------+-------------+
+|Module Name                 | RTL Object              | Inference | Size (Depth x Width) | Primitives  | 
++----------------------------+-------------------------+-----------+----------------------+-------------+
+|inst/u_cortexm1/u_core/u_dp | u_r_bank/reg_file_b_reg | Implied   | 16 x 32              | RAM32M x 6  | 
++----------------------------+-------------------------+-----------+----------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++-------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name        | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|cm1_multiply_shift | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|cm1_multiply_shift | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|cm1_multiply_shift | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|cm1_multiply_shift | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++-------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:25 ; elapsed = 00:01:32 . Memory (MB): peak = 2544.223 ; gain = 714.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:26 ; elapsed = 00:01:33 . Memory (MB): peak = 2544.223 ; gain = 714.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++------------+-------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object                                | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+-------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|inst        | gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg | 8 K x 32(READ_FIRST)   | W | R | 8 K x 32(READ_FIRST)   | W | R | Port A and B     | 0      | 8      | 
+|inst        | u_x_itcm/genblk2[1].ram_block_reg         | 8 K x 32(READ_FIRST)   | W | R | 8 K x 32(READ_FIRST)   | W | R | Port A and B     | 0      | 8      | 
++------------+-------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping Report
++----------------------------+-------------------------+-----------+----------------------+-------------+
+|Module Name                 | RTL Object              | Inference | Size (Depth x Width) | Primitives  | 
++----------------------------+-------------------------+-----------+----------------------+-------------+
+|inst/u_cortexm1/u_core/u_dp | u_r_bank/reg_file_b_reg | Implied   | 16 x 32              | RAM32M x 6  | 
++----------------------------+-------------------------+-----------+----------------------+-------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg_2_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg_2_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg_2_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg_2_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg_3_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg_3_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg_3_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gb_DTCM.u_x_dtcm/genblk2[1].ram_block_reg_3_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_x_itcm/genblk2[1].ram_block_reg_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_x_itcm/genblk2[1].ram_block_reg_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_x_itcm/genblk2[1].ram_block_reg_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_x_itcm/genblk2[1].ram_block_reg_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_x_itcm/genblk2[1].ram_block_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_x_itcm/genblk2[1].ram_block_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_x_itcm/genblk2[1].ram_block_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_x_itcm/genblk2[1].ram_block_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_x_itcm/genblk2[1].ram_block_reg_2_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_x_itcm/genblk2[1].ram_block_reg_2_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_x_itcm/genblk2[1].ram_block_reg_2_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_x_itcm/genblk2[1].ram_block_reg_2_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_x_itcm/genblk2[1].ram_block_reg_3_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_x_itcm/genblk2[1].ram_block_reg_3_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_x_itcm/genblk2[1].ram_block_reg_3_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_x_itcm/genblk2[1].ram_block_reg_3_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:29 ; elapsed = 00:01:37 . Memory (MB): peak = 2544.223 ; gain = 714.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:36 ; elapsed = 00:01:44 . Memory (MB): peak = 2544.223 ; gain = 714.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:36 ; elapsed = 00:01:44 . Memory (MB): peak = 2544.223 ; gain = 714.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:37 ; elapsed = 00:01:45 . Memory (MB): peak = 2544.223 ; gain = 714.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:37 ; elapsed = 00:01:45 . Memory (MB): peak = 2544.223 ; gain = 714.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:37 ; elapsed = 00:01:45 . Memory (MB): peak = 2544.223 ; gain = 714.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:37 ; elapsed = 00:01:45 . Memory (MB): peak = 2544.223 ; gain = 714.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++-------------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name        | DSP Mapping     | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|cm1_multiply_shift | (A*B)'          | 17     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|cm1_multiply_shift | A*B             | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|cm1_multiply_shift | (PCIN>>17+A*B)' | 0      | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
++-------------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    51|
+|2     |DSP48E1  |     3|
+|4     |LUT1     |    58|
+|5     |LUT2     |   331|
+|6     |LUT3     |   458|
+|7     |LUT4     |   400|
+|8     |LUT5     |   738|
+|9     |LUT6     |  1600|
+|10    |MUXF7    |    72|
+|11    |MUXF8    |    32|
+|12    |RAM32M   |     5|
+|13    |RAM32X1D |     2|
+|14    |RAMB36E1 |    16|
+|15    |FDCE     |  1928|
+|16    |FDPE     |    79|
+|17    |FDRE     |   558|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:37 ; elapsed = 00:01:45 . Memory (MB): peak = 2544.223 ; gain = 714.406
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 318 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:18 ; elapsed = 00:01:41 . Memory (MB): peak = 2544.223 ; gain = 601.719
+Synthesis Optimization Complete : Time (s): cpu = 00:01:37 ; elapsed = 00:01:45 . Memory (MB): peak = 2544.223 ; gain = 714.406
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.224 . Memory (MB): peak = 2544.223 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 181 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2545.867 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 7 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 5 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 2 instances
+
+Synth Design complete, checksum: 7852d33
+INFO: [Common 17-83] Releasing license: Synthesis
+73 Infos, 204 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:45 ; elapsed = 00:01:55 . Memory (MB): peak = 2545.867 ; gain = 1091.984
+INFO: [Common 17-1381] The checkpoint 'C:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.runs/design_1_CORTEXM1_AXI_0_4_synth_1/design_1_CORTEXM1_AXI_0_4.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_CORTEXM1_AXI_0_4, cache-ID = 2f834b526b3a3c20
+config_ip_cache: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2545.867 ; gain = 0.000
+INFO: [Coretcl 2-1174] Renamed 57 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/kmironp/Desktop/SimpleSoC-master/design/ArtySOC/ArtySOC.runs/design_1_CORTEXM1_AXI_0_4_synth_1/design_1_CORTEXM1_AXI_0_4.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_CORTEXM1_AXI_0_4_utilization_synth.rpt -pb design_1_CORTEXM1_AXI_0_4_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jan  8 17:16:06 2024...
