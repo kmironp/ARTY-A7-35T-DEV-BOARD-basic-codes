@@ -1,0 +1,88 @@
+17:16:00 DEBUG : Logs will be stored at 'C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/implementingM1/impm1/impm1.vitis/IDE.log'.
+17:16:04 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\kmironp\Desktop\Szakdoga_vegso\Kodok\implementingM1\impm1\impm1.vitis\temp_xsdb_launch_script.tcl
+17:16:05 INFO  : Registering command handlers for Vitis TCF services
+17:16:08 INFO  : Platform repository initialization has completed.
+17:16:12 INFO  : XSCT server has started successfully.
+17:16:16 INFO  : plnx-install-location is set to ''
+17:16:16 INFO  : Successfully done query RDI_DATADIR 
+17:16:16 INFO  : Successfully done setting XSCT server connection channel  
+17:16:16 INFO  : Successfully done setting workspace for the tool. 
+17:16:16 INFO  : Restoring global repository preferences: 
+		 V:\vivado\Arm_sw_repository
+17:17:21 ERROR : (XSDB Server)ERROR: [Hsi 55-1545] Problem running tcl command ::sw_standalone_v8_0::generate : ERROR: processor CORTEXM1_AXI is not supported
+    while executing
+"error "ERROR: processor $proctype is not supported""
+    (procedure "::sw_standalone_v8_0::generate" line 399)
+    invoked from within
+"::sw_standalone_v8_0::generate standalone"
+
+17:17:21 ERROR : (XSDB Server)ERROR: [Hsi 55-1442] Error(s) while running TCL procedure generate()
+
+17:17:21 ERROR : Failed to create platform.
+17:18:49 DEBUG : Logs will be stored at 'C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/implementingM1/impm1/impm1.vitis/IDE.log'.
+17:18:52 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\kmironp\Desktop\Szakdoga_vegso\Kodok\implementingM1\impm1\impm1.vitis\temp_xsdb_launch_script.tcl
+17:18:54 INFO  : Registering command handlers for Vitis TCF services
+17:18:55 INFO  : Platform repository initialization has completed.
+17:18:56 INFO  : XSCT server has started successfully.
+17:18:57 INFO  : Successfully done setting XSCT server connection channel  
+17:18:57 INFO  : plnx-install-location is set to ''
+17:18:57 INFO  : Successfully done query RDI_DATADIR 
+17:18:57 INFO  : Successfully done setting workspace for the tool. 
+17:18:57 INFO  : Restoring global repository preferences: 
+		 V:\vivado\Arm_sw_repository
+17:20:51 ERROR : (XSDB Server)ERROR: [Hsi 55-1545] Problem running tcl command ::sw_standalone_v8_0::generate : ERROR: processor CORTEXM1_AXI is not supported
+    while executing
+"error "ERROR: processor $proctype is not supported""
+    (procedure "::sw_standalone_v8_0::generate" line 399)
+    invoked from within
+"::sw_standalone_v8_0::generate standalone"
+
+17:20:51 ERROR : (XSDB Server)ERROR: [Hsi 55-1442] Error(s) while running TCL procedure generate()
+
+17:20:51 ERROR : Failed to create platform for application project
+Reason: An exception occurred while trying to add domain.
+17:20:51 WARN  : An unexpected exception occurred in the module 'platform project logging'
+17:20:51 INFO  : Platform creation cancelled by the user.
+10:50:18 DEBUG : Logs will be stored at 'C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/implementingM1/impm1/impm1.vitis/IDE.log'.
+10:50:21 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\kmironp\Desktop\Szakdoga_vegso\Kodok\implementingM1\impm1\impm1.vitis\temp_xsdb_launch_script.tcl
+10:50:22 INFO  : Registering command handlers for Vitis TCF services
+10:50:24 INFO  : Platform repository initialization has completed.
+10:50:26 INFO  : XSCT server has started successfully.
+10:50:30 INFO  : Successfully done setting XSCT server connection channel  
+10:50:30 INFO  : plnx-install-location is set to ''
+10:50:30 INFO  : Successfully done query RDI_DATADIR 
+10:50:30 INFO  : Successfully done setting workspace for the tool. 
+10:50:30 INFO  : Restoring global repository preferences: 
+		 V:\vivado\Arm_sw_repository
+10:50:30 WARN  : Invalid repository path V:\vivado\Arm_sw_repository.
+10:51:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1545] Problem running tcl command ::sw_standalone_v8_0::generate : ERROR: processor CORTEXM1_AXI is not supported
+    while executing
+"error "ERROR: processor $proctype is not supported""
+    (procedure "::sw_standalone_v8_0::generate" line 399)
+    invoked from within
+"::sw_standalone_v8_0::generate standalone"
+ERROR: [Hsi 55-1442] Error(s) while running TCL procedure generate()
+
+10:51:01 ERROR : (XSDB Server)UpdateStringProc should not be invoked for type regexp
+
+10:51:03 ERROR : Failed to create platform.
+10:51:06 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\kmironp\Desktop\Szakdoga_vegso\Kodok\implementingM1\impm1\impm1.vitis\temp_xsdb_launch_script.tcl
+10:51:09 INFO  : XSCT server has started successfully.
+10:51:10 WARN  : Failed to closehw "C:/Users/kmironp/AppData/Local/Temp/hwspec_design_1_wrapper2807391226061005518/design_1_wrapper.xsa"
+Reason: Cannot close hw design 'C:/Users/kmironp/AppData/Local/Temp/hwspec_design_1_wrapper2807391226061005518/design_1_wrapper.xsa'.
+Design is not opened in the current session.
+
+10:51:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1545] Problem running tcl command ::sw_standalone_v8_0::generate : ERROR: processor CORTEXM1_AXI is not supported
+    while executing
+"error "ERROR: processor $proctype is not supported""
+    (procedure "::sw_standalone_v8_0::generate" line 399)
+    invoked from within
+"::sw_standalone_v8_0::generate standalone"
+
+10:51:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1442] Error(s) while running TCL procedure generate()
+
+10:51:56 ERROR : Failed to create platform for application project
+Reason: An exception occurred while trying to add domain.
+10:51:56 INFO  : Platform creation cancelled by the user.
+10:51:56 ERROR : An unexpected exception occurred in the module 'reading platform'
+10:51:56 WARN  : An unexpected exception occurred in the module 'platform project logging'

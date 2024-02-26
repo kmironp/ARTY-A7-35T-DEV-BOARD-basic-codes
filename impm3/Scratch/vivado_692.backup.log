@@ -1,0 +1,140 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jan 18 17:22:32 2024
+# Process ID: 692
+# Current directory: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12572 C:\Users\kmironp\Desktop\Szakdoga_vegso\Kodok\impm3\Scratch\Scratch.xpr
+# Log file: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/vivado.log
+# Journal file: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 788.211 ; gain = 180.594
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.srcs/sources_1/bd/design_1/design_1.bd}
+Adding component instance block -- Arm.com:CortexM:CORTEXM3_AXI:1.1 - CORTEXM3_AXI_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Successfully read diagram <design_1> from BD file <C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1054.129 ; gain = 0.000
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:smartconnect:1.0 smartconnect_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_bram_ctrl:4.1 axi_bram_ctrl_0
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] design_1_axi_bram_ctrl_0_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] design_1_axi_bram_ctrl_0_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/CORTEXM3_AXI_0/CM3_SYS_AXI3} Slave {/axi_gpio_0/S_AXI} intc_ip {/axi_interconnect_0} master_apm {0}}  [get_bd_intf_pins axi_gpio_0/S_AXI]
+Slave segment </axi_gpio_0/S_AXI/Reg> is being mapped into address space </CORTEXM3_AXI_0/CM3_CODE_AXI3> at <0x4000_0000 [ 64K ]>
+Slave segment </axi_gpio_0/S_AXI/Reg> is being mapped into address space </CORTEXM3_AXI_0/CM3_SYS_AXI3> at <0x4000_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Board_Interface {dip_switches_4bits ( 4 Switches ) } Manual_Source {Auto}}  [get_bd_intf_pins axi_gpio_0/GPIO]
+INFO: [board_rule 100-100] set_property CONFIG.USE_BOARD_FLOW true [get_bd_cells /axi_gpio_0]
+INFO: [board_rule 100-100] set_property CONFIG.GPIO_BOARD_INTERFACE dip_switches_4bits [get_bd_cells /axi_gpio_0]
+INFO: [board_rule 100-100] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:gpio_rtl:1.0 dip_switches_4bits
+INFO: [board_rule 100-100] connect_bd_intf_net /dip_switches_4bits /axi_gpio_0/GPIO
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/CORTEXM3_AXI_0/CM3_SYS_AXI3} Slave {/axi_bram_ctrl_0/S_AXI} intc_ip {/axi_interconnect_0} master_apm {0}}  [get_bd_intf_pins axi_bram_ctrl_0/S_AXI]
+Slave segment </axi_bram_ctrl_0/S_AXI/Mem0> is being mapped into address space </CORTEXM3_AXI_0/CM3_CODE_AXI3> at <0xC000_0000 [ 8K ]>
+Slave segment </axi_bram_ctrl_0/S_AXI/Mem0> is being mapped into address space </CORTEXM3_AXI_0/CM3_SYS_AXI3> at <0xC000_0000 [ 8K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:bram_cntlr -config {BRAM "Auto" }  [get_bd_intf_pins axi_bram_ctrl_0/BRAM_PORTA]
+apply_bd_automation -rule xilinx.com:bd_rule:bram_cntlr -config {BRAM "Auto" }  [get_bd_intf_pins axi_bram_ctrl_0/BRAM_PORTB]
+endgroup
+regenerate_bd_layout
+validate_bd_design
+ERROR: [BD 41-758] The following clock pins are not connected to a valid clock source: 
+/smartconnect_0/aclk
+
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+delete_bd_objs [get_bd_cells smartconnect_0]
+regenerate_bd_layout
+validate_bd_design
+WARNING: [BD 41-2180] Resetting the memory initialization file of </axi_bram_ctrl_0_bram> to default.
+WARNING: [Arm.com:CortexM:CORTEXM3_AXI:1.1-4] /CORTEXM3_AXI_0: Could not determine interrupt input port type - using default interrupt type Rising Edge. Please change this manually if necessary.
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /axi_interconnect_0/m00_couplers/auto_pc/S_AXI(0) and /axi_interconnect_0/xbar/M00_AXI(1)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /axi_interconnect_0/m00_couplers/auto_pc/S_AXI(0) and /axi_interconnect_0/xbar/M00_AXI(1)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /axi_interconnect_0/m01_couplers/auto_pc/S_AXI(0) and /axi_interconnect_0/xbar/M01_AXI(1)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /axi_interconnect_0/m01_couplers/auto_pc/S_AXI(0) and /axi_interconnect_0/xbar/M01_AXI(1)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(0) and /axi_interconnect_0/xbar/M02_AXI(1)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(0) and /axi_interconnect_0/xbar/M02_AXI(1)
+save_bd_design
+Wrote  : <C:\Users\kmironp\Desktop\Szakdoga_vegso\Kodok\impm3\Scratch\Scratch.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+make_wrapper -files [get_files C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.srcs/sources_1/bd/design_1/design_1.bd] -top
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-2180] Resetting the memory initialization file of </axi_bram_ctrl_0_bram> to default.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addra'(32) to net 'axi_bram_ctrl_0_BRAM_PORTA_ADDR'(13) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addrb'(32) to net 'axi_bram_ctrl_0_BRAM_PORTB_ADDR'(13) - Only lower order bits will be connected.
+VHDL Output written to : C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.srcs/sources_1/bd/design_1/synth/design_1.v
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addra'(32) to net 'axi_bram_ctrl_0_BRAM_PORTA_ADDR'(13) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addrb'(32) to net 'axi_bram_ctrl_0_BRAM_PORTB_ADDR'(13) - Only lower order bits will be connected.
+VHDL Output written to : C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.srcs/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+reset_run synth_1
+reset_run design_1_xbar_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-2180] Resetting the memory initialization file of </axi_bram_ctrl_0_bram> to default.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addra'(32) to net 'axi_bram_ctrl_0_BRAM_PORTA_ADDR'(13) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addrb'(32) to net 'axi_bram_ctrl_0_BRAM_PORTB_ADDR'(13) - Only lower order bits will be connected.
+VHDL Output written to : C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.srcs/sources_1/bd/design_1/synth/design_1.v
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addra'(32) to net 'axi_bram_ctrl_0_BRAM_PORTA_ADDR'(13) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addrb'(32) to net 'axi_bram_ctrl_0_BRAM_PORTB_ADDR'(13) - Only lower order bits will be connected.
+VHDL Output written to : C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.srcs/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CORTEXM3_AXI_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_2/design_1_auto_pc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_3/design_1_auto_pc_3_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s01_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m01_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0_bram .
+Exporting to file C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+[Thu Jan 18 17:26:23 2024] Launched design_1_xbar_0_synth_1, design_1_axi_gpio_0_0_synth_1, design_1_axi_bram_ctrl_0_0_synth_1, design_1_auto_pc_2_synth_1, design_1_auto_pc_0_synth_1, design_1_axi_bram_ctrl_0_bram_0_synth_1, design_1_auto_pc_3_synth_1, design_1_auto_pc_1_synth_1, synth_1...
+Run output will be captured here:
+design_1_xbar_0_synth_1: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.runs/design_1_xbar_0_synth_1/runme.log
+design_1_axi_gpio_0_0_synth_1: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.runs/design_1_axi_gpio_0_0_synth_1/runme.log
+design_1_axi_bram_ctrl_0_0_synth_1: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.runs/design_1_axi_bram_ctrl_0_0_synth_1/runme.log
+design_1_auto_pc_2_synth_1: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.runs/design_1_auto_pc_2_synth_1/runme.log
+design_1_auto_pc_0_synth_1: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.runs/design_1_auto_pc_0_synth_1/runme.log
+design_1_axi_bram_ctrl_0_bram_0_synth_1: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.runs/design_1_axi_bram_ctrl_0_bram_0_synth_1/runme.log
+design_1_auto_pc_3_synth_1: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.runs/design_1_auto_pc_3_synth_1/runme.log
+design_1_auto_pc_1_synth_1: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.runs/design_1_auto_pc_1_synth_1/runme.log
+synth_1: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.runs/synth_1/runme.log
+[Thu Jan 18 17:26:24 2024] Launched impl_1...
+Run output will be captured here: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/impm3/Scratch/Scratch.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 1233.895 ; gain = 61.020
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 18 17:42:43 2024...

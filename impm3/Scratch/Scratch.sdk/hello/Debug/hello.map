@@ -1,0 +1,958 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-atexit.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/rdimon-crt0.o (atexit)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-exit.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/rdimon-crt0.o (exit)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fini.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/rdimon-crt0.o (__libc_fini_array)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-impure.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-init.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/rdimon-crt0.o (__libc_init_array)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-memset.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/rdimon-crt0.o (memset)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-__atexit.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-__call_atexit.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-exit.o) (__call_exitprocs)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-syscalls.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/rdimon-crt0.o (initialise_monitor_handles)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_exit.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-exit.o) (_exit)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_kill.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_exit.o) (_kill)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-errno.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-syscalls.o) (__errno)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-findfp.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-syscalls.o) (__sinit)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fwalk.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-findfp.o) (_fwalk)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-mallocr.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-findfp.o) (_malloc_r)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-mlock.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-mallocr.o) (__malloc_lock)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-sbrkr.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-mallocr.o) (_sbrk_r)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-stdio.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-findfp.o) (__sread)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-strlen-stub.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-syscalls.o) (strlen)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-writer.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-stdio.o) (_write_r)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-closer.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-stdio.o) (_close_r)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fclose.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-findfp.o) (_fclose_r)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fflush.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fclose.o) (__sflush_r)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-freer.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-mallocr.o) (_free_r)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-lseekr.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-stdio.o) (_lseek_r)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-readr.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-stdio.o) (_read_r)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-reent.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-sbrkr.o) (errno)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-puts.o)
+                              ./src/main.o (puts)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-fvwrite.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-puts.o) (__sfvwrite_r)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-memchr-stub.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-fvwrite.o) (memchr)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-memcpy-stub.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-fvwrite.o) (memcpy)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-memmove.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-fvwrite.o) (memmove)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-reallocr.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-fvwrite.o) (_realloc_r)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-wsetup.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-fvwrite.o) (__swsetup_r)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-makebuf.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-wsetup.o) (__smakebuf_r)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-fstatr.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-makebuf.o) (_fstat_r)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-isattyr.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-makebuf.o) (_isatty_r)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp\libgcc.a(_divsi3.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-fvwrite.o) (__aeabi_idiv)
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp\libgcc.a(_dvmd_tls.o)
+                              c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp\libgcc.a(_divsi3.o) (__aeabi_idiv0)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-reent.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crti.o
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crti.o
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crti.o
+ .data          0x0000000000000000        0x4 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtbegin.o
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/rdimon-crt0.o
+ .ARM.extab     0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/rdimon-crt0.o
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-atexit.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-atexit.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fini.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fini.o)
+ .text          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-__atexit.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-__atexit.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-__call_atexit.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_exit.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_exit.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_kill.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_kill.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-errno.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-errno.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-findfp.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-findfp.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fwalk.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fwalk.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-stdio.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-stdio.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-strlen-stub.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-strlen-stub.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-writer.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-writer.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-closer.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-closer.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fclose.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fclose.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fflush.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fflush.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-freer.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-freer.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-lseekr.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-lseekr.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-readr.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-readr.o)
+ .text          0x0000000000000000       0xbc c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-reent.o)
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .text          0x0000000000000000        0x0 ./src/main.o
+ .data          0x0000000000000000        0x0 ./src/main.o
+ .bss           0x0000000000000000        0x0 ./src/main.o
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-puts.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-puts.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-fvwrite.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-fvwrite.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-memchr-stub.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-memchr-stub.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-memmove.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-reallocr.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-reallocr.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-wsetup.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-wsetup.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-makebuf.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-makebuf.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-fstatr.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-fstatr.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-isattyr.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-isattyr.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp\libgcc.a(_divsi3.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp\libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp\libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp\libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtend.o
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtend.o
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtend.o
+ .text          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtn.o
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtn.o
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crti.o
+LOAD c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtbegin.o
+LOAD c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/rdimon-crt0.o
+START GROUP
+LOAD c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp\libgcc.a
+LOAD c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a
+LOAD c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a
+LOAD c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libm.a
+LOAD c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a
+END GROUP
+LOAD ./src/main.o
+START GROUP
+LOAD c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp\libgcc.a
+LOAD c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a
+LOAD c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a
+END GROUP
+START GROUP
+LOAD c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp\libgcc.a
+LOAD c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a
+LOAD c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a
+END GROUP
+LOAD c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtend.o
+LOAD c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x8000))
+                0x0000000000008000                . = SEGMENT_START ("text-segment", 0x8000)
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+                0x0000000000008000       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000008000       0x24 linker stubs
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.dyn        0x0000000000008024        0x0
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+                [!provide]                        PROVIDE (__rel_iplt_start = .)
+ *(.rel.iplt)
+ .rel.iplt      0x0000000000008024        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtbegin.o
+                [!provide]                        PROVIDE (__rel_iplt_end = .)
+
+.rela.dyn       0x0000000000008024        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+                [!provide]                        PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end = .)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init           0x0000000000008024        0xc
+ *(SORT_NONE(.init))
+ .init          0x0000000000008024        0x4 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crti.o
+                0x0000000000008024                _init
+ .init          0x0000000000008028        0x8 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtn.o
+
+.plt
+ *(.plt)
+
+.iplt           0x0000000000008030        0x0
+ *(.iplt)
+ .iplt          0x0000000000008030        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtbegin.o
+
+.text           0x0000000000008030     0x2f48
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000008030       0xb4 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtbegin.o
+ .text          0x00000000000080e4      0x150 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/rdimon-crt0.o
+                0x00000000000080e4                _start
+                0x00000000000080e4                _mainCRTStartup
+ .text          0x0000000000008234       0x14 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-atexit.o)
+                0x0000000000008234                atexit
+ .text          0x0000000000008248       0x28 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-exit.o)
+                0x0000000000008248                exit
+ .text          0x0000000000008270       0x30 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fini.o)
+                0x0000000000008270                __libc_fini_array
+ .text          0x00000000000082a0       0x50 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-init.o)
+                0x00000000000082a0                __libc_init_array
+ .text          0x00000000000082f0       0xb0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-memset.o)
+                0x00000000000082f0                memset
+ .text          0x00000000000083a0       0xd4 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-__atexit.o)
+                0x00000000000083a0                __register_exitproc
+ .text          0x0000000000008474      0x104 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-__call_atexit.o)
+                0x0000000000008474                __call_exitprocs
+ .text          0x0000000000008578      0xd88 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-syscalls.o)
+                0x0000000000008618                _swiread
+                0x000000000000865c                _read
+                0x00000000000086ec                _swilseek
+                0x00000000000087f8                _lseek
+                0x00000000000087fc                _swiwrite
+                0x0000000000008840                _write
+                0x0000000000008914                _swiclose
+                0x0000000000008958                _close
+                0x0000000000008a08                _getpid
+                0x0000000000008a10                _sbrk
+                0x0000000000008a94                _swistat
+                0x0000000000008b14                _fstat
+                0x0000000000008b3c                _stat
+                0x0000000000008ba4                _swiopen
+                0x0000000000008cdc                _open
+                0x0000000000008cf8                _get_semihosting_exts
+                0x0000000000008e94                _has_ext_exit_extended
+                0x0000000000008ec4                _has_ext_stdout_stderr
+                0x0000000000008ef4                initialise_monitor_handles
+                0x0000000000009050                _link
+                0x000000000000906c                _unlink
+                0x00000000000090dc                _gettimeofday
+                0x0000000000009130                _clock
+                0x0000000000009158                _times
+                0x0000000000009194                _isatty
+                0x0000000000009204                _system
+                0x0000000000009294                _rename
+ .text          0x0000000000009300        0xc c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_exit.o)
+                0x0000000000009300                _exit
+ .text          0x000000000000930c       0x60 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_kill.o)
+                0x000000000000930c                _kill
+ .text          0x000000000000936c        0xc c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-errno.o)
+                0x000000000000936c                __errno
+ .text          0x0000000000009378      0x244 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-findfp.o)
+                0x000000000000937c                _cleanup_r
+                0x0000000000009480                __sfmoreglue
+                0x00000000000094b4                __sfp
+                0x0000000000009544                _cleanup
+                0x0000000000009560                __sinit
+                0x0000000000009574                __sfp_lock_acquire
+                0x0000000000009578                __sfp_lock_release
+                0x000000000000957c                __sinit_lock_acquire
+                0x0000000000009580                __sinit_lock_release
+                0x0000000000009584                __fp_lock_all
+                0x00000000000095a0                __fp_unlock_all
+ .text          0x00000000000095bc       0xa4 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fwalk.o)
+                0x00000000000095bc                _fwalk
+                0x0000000000009608                _fwalk_reent
+ .text          0x0000000000009660      0x558 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-mallocr.o)
+                0x0000000000009660                _malloc_r
+ .text          0x0000000000009bb8        0x8 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-mlock.o)
+                0x0000000000009bb8                __malloc_lock
+                0x0000000000009bbc                __malloc_unlock
+ .text          0x0000000000009bc0       0x28 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-sbrkr.o)
+                0x0000000000009bc0                _sbrk_r
+ .text          0x0000000000009be8       0xb4 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-stdio.o)
+                0x0000000000009be8                __sread
+                0x0000000000009c14                __seofread
+                0x0000000000009c18                __swrite
+                0x0000000000009c5c                __sseek
+                0x0000000000009c8c                __sclose
+ .text          0x0000000000009c9c       0x6c c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-strlen-stub.o)
+                0x0000000000009c9c                strlen
+ .text          0x0000000000009d08       0x2c c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-writer.o)
+                0x0000000000009d08                _write_r
+ .text          0x0000000000009d34       0x28 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-closer.o)
+                0x0000000000009d34                _close_r
+ .text          0x0000000000009d5c       0xbc c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fclose.o)
+                0x0000000000009d5c                _fclose_r
+                0x0000000000009dfc                fclose
+ .text          0x0000000000009e18      0x1c8 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fflush.o)
+                0x0000000000009e18                __sflush_r
+                0x0000000000009f80                _fflush_r
+                0x0000000000009fb0                fflush
+ .text          0x0000000000009fe0      0x284 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-freer.o)
+                0x0000000000009fe0                _malloc_trim_r
+                0x000000000000a084                _free_r
+ .text          0x000000000000a264       0x2c c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-lseekr.o)
+                0x000000000000a264                _lseek_r
+ .text          0x000000000000a290       0x2c c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-readr.o)
+                0x000000000000a290                _read_r
+ .text.main     0x000000000000a2bc       0x14 ./src/main.o
+                0x000000000000a2bc                main
+ .text          0x000000000000a2d0       0x8c c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-puts.o)
+                0x000000000000a2d0                _puts_r
+                0x000000000000a344                puts
+ .text          0x000000000000a35c      0x348 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-fvwrite.o)
+                0x000000000000a35c                __sfvwrite_r
+ .text          0x000000000000a6a4       0x84 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-memchr-stub.o)
+                0x000000000000a6a4                memchr
+ .text          0x000000000000a728       0x9c c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-memcpy-stub.o)
+                0x000000000000a728                memcpy
+ .text          0x000000000000a7c4       0xb0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-memmove.o)
+                0x000000000000a7c4                memmove
+ .text          0x000000000000a874      0x370 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-reallocr.o)
+                0x000000000000a874                _realloc_r
+ .text          0x000000000000abe4       0xe4 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-wsetup.o)
+                0x000000000000abe4                __swsetup_r
+ .text          0x000000000000acc8       0xfc c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-makebuf.o)
+                0x000000000000acc8                __swhatbuf_r
+                0x000000000000ad2c                __smakebuf_r
+ .text          0x000000000000adc4       0x2c c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-fstatr.o)
+                0x000000000000adc4                _fstat_r
+ .text          0x000000000000adf0       0x28 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-isattyr.o)
+                0x000000000000adf0                _isatty_r
+ .text          0x000000000000ae18      0x150 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp\libgcc.a(_divsi3.o)
+                0x000000000000ae18                __divsi3
+                0x000000000000ae18                __aeabi_idiv
+                0x000000000000af48                __aeabi_idivmod
+ .text          0x000000000000af68        0x4 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp\libgcc.a(_dvmd_tls.o)
+                0x000000000000af68                __aeabi_idiv0
+                0x000000000000af68                __aeabi_ldiv0
+ *fill*         0x000000000000af6c        0x4 
+ .text.__stub   0x000000000000af70        0x8 linker stubs
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x000000000000af78        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x000000000000af78        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x000000000000af78        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x000000000000af78        0x0 linker stubs
+
+.fini           0x000000000000af78        0xc
+ *(SORT_NONE(.fini))
+ .fini          0x000000000000af78        0x4 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crti.o
+                0x000000000000af78                _fini
+ .fini          0x000000000000af7c        0x8 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata         0x000000000000af84       0x38
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000000000000af84        0x4 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-impure.o)
+                0x000000000000af84                _global_impure_ptr
+ .rodata.str1.4
+                0x000000000000af88       0x1c c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-syscalls.o)
+ .rodata        0x000000000000afa4       0x11 ./src/main.o
+ *fill*         0x000000000000afb5        0x3 
+ .rodata.str1.4
+                0x000000000000afb8        0x4 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-puts.o)
+                                          0x2 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                [!provide]                        PROVIDE (__exidx_start = .)
+
+.ARM.exidx      0x000000000000afbc        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x000000000000afbc        0x8 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/rdimon-crt0.o
+                [!provide]                        PROVIDE (__exidx_end = .)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000000000000afc4        0x4
+ *(.eh_frame)
+ .eh_frame      0x000000000000afc4        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtbegin.o
+ .eh_frame      0x000000000000afc4        0x4 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtend.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000001afc8                . = (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1)))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata          0x000000000001afc8        0x0
+                [!provide]                        PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x000000000001afc8        0x0
+                0x000000000001afc8                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x000000000001afc8                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x000000000001afc8        0x4
+                0x000000000001afc8                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000001afc8        0x4 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtbegin.o
+                0x000000000001afcc                PROVIDE (__init_array_end = .)
+
+.fini_array     0x000000000001afcc        0x4
+                0x000000000001afcc                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000001afcc        0x4 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtbegin.o
+                0x000000000001afd0                PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic
+ *(.dynamic)
+
+.got            0x000000000001afd0        0x0
+ *(.got.plt)
+ *(.igot.plt)
+ .igot.plt      0x000000000001afd0        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtbegin.o
+ *(.got)
+ *(.igot)
+
+.data           0x000000000001afd0      0x964
+                0x000000000001afd0                __data_start = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000001afd0      0x118 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/rdimon-crt0.o
+                0x000000000001afd8                __stack_base__
+ .data          0x000000000001b0e8      0x430 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-impure.o)
+                0x000000000001b0e8                _impure_ptr
+ .data          0x000000000001b518        0xc c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-syscalls.o)
+                0x000000000001b518                __heap_limit
+ .data          0x000000000001b524      0x410 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-mallocr.o)
+                0x000000000001b524                __malloc_sbrk_base
+                0x000000000001b528                __malloc_trim_threshold
+                0x000000000001b52c                __malloc_av_
+
+.tm_clone_table
+                0x000000000001b934        0x0
+ .tm_clone_table
+                0x000000000001b934        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtbegin.o
+ .tm_clone_table
+                0x000000000001b934        0x0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtend.o
+
+.data1
+ *(.data1)
+                0x000000000001b934                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x000000000001b934                . = .
+                0x000000000001b934                __bss_start = .
+                0x000000000001b934                __bss_start__ = .
+
+.bss            0x000000000001b934      0x104
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000001b934       0x1c c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtbegin.o
+ .bss           0x000000000001b950       0xb0 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-syscalls.o)
+ .bss           0x000000000001ba00       0x34 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-mallocr.o)
+                0x000000000001ba00                __malloc_top_pad
+                0x000000000001ba04                __malloc_current_mallinfo
+                0x000000000001ba2c                __malloc_max_sbrked_mem
+                0x000000000001ba30                __malloc_max_total_mem
+ *(COMMON)
+ COMMON         0x000000000001ba34        0x4 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-reent.o)
+                0x000000000001ba34                errno
+                0x000000000001ba38                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000001ba38                _bss_end__ = .
+                0x000000000001ba38                __bss_end__ = .
+                0x000000000001ba38                . = ALIGN (0x4)
+                0x000000000001ba38                . = SEGMENT_START ("ldata-segment", .)
+                0x000000000001ba38                . = ALIGN (0x4)
+                0x000000000001ba38                __end__ = .
+                0x000000000001ba38                _end = .
+                0x000000000001ba38                PROVIDE (end = .)
+
+.stack          0x0000000000080000        0x0
+                0x0000000000080000                _stack = .
+ *(.stack)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-atexit.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-exit.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fini.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-impure.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-init.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-memset.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-__atexit.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-syscalls.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_exit.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_kill.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-errno.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-findfp.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fwalk.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-mallocr.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-mlock.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-sbrkr.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-stdio.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-strlen-stub.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-writer.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-closer.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fclose.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fflush.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-freer.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-lseekr.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-readr.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-reent.o)
+ .comment       0x0000000000000011       0x12 ./src/main.o
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-puts.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-fvwrite.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-memchr-stub.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-memcpy-stub.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-memmove.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-reallocr.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-wsetup.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-makebuf.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-fstatr.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-isattyr.o)
+ .comment       0x0000000000000011       0x12 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtend.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0xa0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/rdimon-crt0.o
+ .debug_aranges
+                0x0000000000000020       0x20 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-syscalls.o)
+ .debug_aranges
+                0x0000000000000040       0x20 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_exit.o)
+ .debug_aranges
+                0x0000000000000060       0x20 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_kill.o)
+ .debug_aranges
+                0x0000000000000080       0x20 ./src/main.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x355c
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x26 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/rdimon-crt0.o
+ .debug_info    0x0000000000000026     0x2a17 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-syscalls.o)
+ .debug_info    0x0000000000002a3d       0x7b c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_exit.o)
+ .debug_info    0x0000000000002ab8      0x180 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_kill.o)
+ .debug_info    0x0000000000002c38      0x924 ./src/main.o
+
+.debug_abbrev   0x0000000000000000      0x90b
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x14 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/rdimon-crt0.o
+ .debug_abbrev  0x0000000000000014      0x58b c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-syscalls.o)
+ .debug_abbrev  0x000000000000059f       0x7c c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_exit.o)
+ .debug_abbrev  0x000000000000061b      0x12f c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_kill.o)
+ .debug_abbrev  0x000000000000074a      0x1c1 ./src/main.o
+
+.debug_line     0x0000000000000000     0x17af
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0xee c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/rdimon-crt0.o
+ .debug_line    0x00000000000000ee     0x121b c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-syscalls.o)
+ .debug_line    0x0000000000001309       0x9c c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_exit.o)
+ .debug_line    0x00000000000013a5       0xf3 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_kill.o)
+ .debug_line    0x0000000000001498      0x317 ./src/main.o
+
+.debug_frame    0x0000000000000000      0x5a8
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x4fc c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-syscalls.o)
+ .debug_frame   0x00000000000004fc       0x28 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_exit.o)
+ .debug_frame   0x0000000000000524       0x38 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_kill.o)
+ .debug_frame   0x000000000000055c       0x2c ./src/main.o
+ .debug_frame   0x0000000000000588       0x20 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp\libgcc.a(_divsi3.o)
+
+.debug_str      0x0000000000000000     0x76be
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0xf3 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/rdimon-crt0.o
+ .debug_str     0x00000000000000f3      0x860 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-syscalls.o)
+                                        0xa89 (size before relaxing)
+ .debug_str     0x0000000000000953       0x73 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_exit.o)
+                                        0x144 (size before relaxing)
+ .debug_str     0x00000000000009c6       0x65 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_kill.o)
+                                        0x207 (size before relaxing)
+ .debug_str     0x0000000000000a2b     0x6c93 ./src/main.o
+                                       0x71c5 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x20a6
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x1fd6 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-syscalls.o)
+ .debug_loc     0x0000000000001fd6       0x25 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_exit.o)
+ .debug_loc     0x0000000000001ffb       0xab c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_kill.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x560
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x538 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-syscalls.o)
+ .debug_ranges  0x0000000000000538       0x18 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_kill.o)
+ .debug_ranges  0x0000000000000550       0x10 ./src/main.o
+
+.debug_macro    0x0000000000000000     0x1966
+ *(.debug_macro)
+ .debug_macro   0x0000000000000000      0x196 ./src/main.o
+ .debug_macro   0x0000000000000196      0xa78 ./src/main.o
+ .debug_macro   0x0000000000000c0e       0x22 ./src/main.o
+ .debug_macro   0x0000000000000c30       0x52 ./src/main.o
+ .debug_macro   0x0000000000000c82       0x17 ./src/main.o
+ .debug_macro   0x0000000000000c99       0x94 ./src/main.o
+ .debug_macro   0x0000000000000d2d       0x35 ./src/main.o
+ .debug_macro   0x0000000000000d62       0x34 ./src/main.o
+ .debug_macro   0x0000000000000d96       0x16 ./src/main.o
+ .debug_macro   0x0000000000000dac       0x57 ./src/main.o
+ .debug_macro   0x0000000000000e03       0x97 ./src/main.o
+ .debug_macro   0x0000000000000e9a      0x330 ./src/main.o
+ .debug_macro   0x00000000000011ca       0xfd ./src/main.o
+ .debug_macro   0x00000000000012c7       0x10 ./src/main.o
+ .debug_macro   0x00000000000012d7       0x52 ./src/main.o
+ .debug_macro   0x0000000000001329       0x1f ./src/main.o
+ .debug_macro   0x0000000000001348       0x43 ./src/main.o
+ .debug_macro   0x000000000000138b       0x20 ./src/main.o
+ .debug_macro   0x00000000000013ab      0x18e ./src/main.o
+ .debug_macro   0x0000000000001539       0x10 ./src/main.o
+ .debug_macro   0x0000000000001549       0x6a ./src/main.o
+ .debug_macro   0x00000000000015b3       0x1c ./src/main.o
+ .debug_macro   0x00000000000015cf       0x52 ./src/main.o
+ .debug_macro   0x0000000000001621       0x40 ./src/main.o
+ .debug_macro   0x0000000000001661       0x10 ./src/main.o
+ .debug_macro   0x0000000000001671       0x40 ./src/main.o
+ .debug_macro   0x00000000000016b1       0xd7 ./src/main.o
+ .debug_macro   0x0000000000001788       0x1c ./src/main.o
+ .debug_macro   0x00000000000017a4       0x3d ./src/main.o
+ .debug_macro   0x00000000000017e1       0x16 ./src/main.o
+ .debug_macro   0x00000000000017f7      0x16f ./src/main.o
+
+.debug_addr
+ *(.debug_addr)
+
+.ARM.attributes
+                0x0000000000000000       0x2b
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x1c c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crti.o
+ .ARM.attributes
+                0x000000000000001c       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtbegin.o
+ .ARM.attributes
+                0x0000000000000046       0x1a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/rdimon-crt0.o
+ .ARM.attributes
+                0x0000000000000060       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x000000000000008a       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000000000b4       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000000000000de       0x30 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000000000000010e       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000138       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000162       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x000000000000018c       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x00000000000001b6       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-syscalls.o)
+ .ARM.attributes
+                0x00000000000001e0       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_exit.o)
+ .ARM.attributes
+                0x000000000000020a       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\librdimon.a(rdimon-_kill.o)
+ .ARM.attributes
+                0x0000000000000234       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x000000000000025e       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x0000000000000288       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x00000000000002b2       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x00000000000002dc       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x0000000000000306       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x0000000000000330       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x000000000000035a       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-strlen-stub.o)
+ .ARM.attributes
+                0x0000000000000384       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-writer.o)
+ .ARM.attributes
+                0x00000000000003ae       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-closer.o)
+ .ARM.attributes
+                0x00000000000003d8       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fclose.o)
+ .ARM.attributes
+                0x0000000000000402       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x000000000000042c       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-freer.o)
+ .ARM.attributes
+                0x0000000000000456       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x0000000000000480       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-readr.o)
+ .ARM.attributes
+                0x00000000000004aa       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libc.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000000000004d4       0x2d ./src/main.o
+ .ARM.attributes
+                0x0000000000000501       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-puts.o)
+ .ARM.attributes
+                0x000000000000052b       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-fvwrite.o)
+ .ARM.attributes
+                0x0000000000000555       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-memchr-stub.o)
+ .ARM.attributes
+                0x000000000000057f       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000000000005a9       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000000000005d3       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x00000000000005fd       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x0000000000000627       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x0000000000000651       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x000000000000067b       0x2a c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/nofp\libg.a(lib_a-isattyr.o)
+ .ARM.attributes
+                0x00000000000006a5       0x1c c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000000000006c1       0x1c c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000000006dd       0x30 c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtend.o
+ .ARM.attributes
+                0x000000000000070d       0x1c c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/thumb/nofp/crtn.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(hello.elf elf32-littlearm)
