@@ -1,1 +1,0 @@
-Led villogás, mintha riasztás lenne, ha felkapcsoljuk a kapcsolót két színben.
