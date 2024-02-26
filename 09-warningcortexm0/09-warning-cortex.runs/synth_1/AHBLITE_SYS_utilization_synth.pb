@@ -1,0 +1,2 @@
+
+2022.2’(Summary of utilization of key resources.Í  §D €"Gå<±M@í  `E½ €¢F…;ŠA    İ  F¥    ­  PAı  RCÅ bÆ@Í%  €@&  HBå&   A2  @@İ2  ´B¥3VUU@­8  @@ı8   BÅ9  A’:BUFGCTRLÍ>    ?   @å?    íD    ½E   @…F    ­Q    ıQ  €?ÅR    
