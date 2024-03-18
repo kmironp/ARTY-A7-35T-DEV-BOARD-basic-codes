@@ -1,0 +1,124 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jan 11 12:51:24 2024
+# Process ID: 15260
+# Current directory: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1724 C:\Users\kmironp\Desktop\Szakdoga_vegso\Kodok\cortexuart\AT426-BU-98000-r0p1-00rel0\hardware\m3_for_arty_a7\m3_for_arty_a7\m3_for_arty_a7.xpr
+# Log file: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7/vivado.log
+# Journal file: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7'
+INFO: [Project 1-313] Project file moved from 'V:/hardware/m3_for_arty_a7/m3_for_arty_a7' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/testbench/Micron_N25Q128A13E/code/N25Qxxx.v', nor could it be found using path 'V:/hardware/m3_for_arty_a7/testbench/Micron_N25Q128A13E/code/N25Qxxx.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/testbench/S25fl128s/model/s25fl128s.v', nor could it be found using path 'V:/hardware/m3_for_arty_a7/testbench/S25fl128s/model/s25fl128s.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/testbench/sfdp.vmf', nor could it be found using path 'V:/hardware/m3_for_arty_a7/testbench/sfdp.vmf'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.ip_user_files', nor could it be found using path 'V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/vivado/Arm_ipi_repository'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 763.227 ; gain = 119.945
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd}
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_DAPLink
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_proc_sys_reset_DAPLink_0 
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_base
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_proc_sys_reset_base_0 
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - i_interconnect_aresetn
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_i_interconnect_aresetn_0 
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - i_peripheral_aresetn1
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_i_peripheral_aresetn1_0 
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - i_sysresetn_or
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_i_sysresetn_or_0 
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - i_inv_dbgresetn
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_i_inv_dbgresetn_0 
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - i_inv_sysresetn1
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_i_inv_sysresetn1_0 
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_clk_wiz_0_0 
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_xlconstant_1_0 
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - axi_bram_ctrl_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_axi_bram_ctrl_0_0 
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] m3_for_arty_a7_axi_bram_ctrl_0_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] m3_for_arty_a7_axi_bram_ctrl_0_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] m3_for_arty_a7_axi_bram_ctrl_0_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] m3_for_arty_a7_axi_bram_ctrl_0_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_axi_gpio_0_0 
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_axi_gpio_1_0 
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_axi_interconnect_0_0 
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_xbar_0 
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_auto_pc_0 
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_axi_quad_spi_0_0 
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_axi_uartlite_0_0 
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_blk_mem_gen_0_0 
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_axi_interconnect_0_1 
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_xbar_1 
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - axi_single_spi_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_axi_single_spi_0_0 
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_axi_quad_spi_0_1 
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - axi_xip_quad_spi_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_axi_xip_quad_spi_0_0 
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_axi_gpio_0_1 
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - axi_protocol_convert_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_axi_protocol_convert_0_0 
+Adding component instance block -- Arm.com:user:DAPLink_to_Arty_shield:1.0 - DAPLink_to_Arty_shield_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_DAPLink_to_Arty_shield_0_0 
+Adding component instance block -- xilinx.com:module_ref:tri_io_buf:1.0 - tri_io_buf_0
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/vivado/Arm_ipi_repository'.
+INFO: [BD 41-1728] Could not find a module with name: m3_for_arty_a7_tri_io_buf_0_0 
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_xlconcat_0_0 
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_xlconcat_1_0 
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_xlconstant_1_1 
+Adding component instance block -- Arm.com:CortexM:CORTEXM3_AXI:1.1 - Cortex_M3_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: m3_for_arty_a7_Cortex_M3_0_0 
+Successfully read diagram <m3_for_arty_a7> from BD file <C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd>
+INFO: [BD 41-433] 
+Design successfully migrated to use XCI files...
+Wrote  : <C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/block_diagram/ui/bd_a2e86b50.ui> 
+open_bd_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1106.367 ; gain = 288.883
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+startgroup
+set_property -dict [list CONFIG.EN_SAFETY_CKT {true}] [get_bd_cells blk_mem_gen_0]
+endgroup
+WARNING: [IP_Flow 19-465] param 'READ_LATENCY' already exists. Ignoring.
+WARNING: [IP_Flow 19-465] param 'RD_CMD_OPTIMIZATION' already exists. Ignoring.
+startgroup
+endgroup
+startgroup
+endgroup
+startgroup
+endgroup
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'startgroup'
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 11 13:33:56 2024...

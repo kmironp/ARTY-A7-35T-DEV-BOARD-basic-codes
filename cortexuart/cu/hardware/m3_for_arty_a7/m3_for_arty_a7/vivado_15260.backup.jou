@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jan 11 12:51:24 2024
+# Process ID: 15260
+# Current directory: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1724 C:\Users\kmironp\Desktop\Szakdoga_vegso\Kodok\cortexuart\AT426-BU-98000-r0p1-00rel0\hardware\m3_for_arty_a7\m3_for_arty_a7\m3_for_arty_a7.xpr
+# Log file: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7/vivado.log
+# Journal file: C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/kmironp/Desktop/Szakdoga_vegso/Kodok/cortexuart/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd}
+update_compile_order -fileset sources_1
+startgroup
+set_property -dict [list CONFIG.EN_SAFETY_CKT {true}] [get_bd_cells blk_mem_gen_0]
+endgroup
+startgroup
+endgroup
+startgroup
+endgroup
+startgroup
+endgroup
+undo
